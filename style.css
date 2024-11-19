@@ -1,0 +1,19 @@
+* {
+ /*Aqui se realizan cambios en toda la pagina */
+}
+
+nav {background-color: grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.tituloPagina {
+    padding-left: 100px;
+    text-align: left;
+}
+
+.descripcion {
+    text-align: center;
+}
+
