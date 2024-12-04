@@ -1,19 +1,67 @@
 * {
  /*Aqui se realizan cambios en toda la pagina */
+ font-family: "Montserrat", sans-serif;  
+ margin: 0;   
+ padding: 0;
+ box-sizing: border-box;
 }
 
-nav {background-color: grey;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: "Montserrat", sans-serif; 
+nav {background-color: #510b2c;
+    padding-top: 2rem; 
+    padding-bottom: 1rem;
+
+   
 }
 
 .tituloPagina {
-    padding-left: 100px;
-    text-align: left;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    text-transform: uppercase ;
 }
 
-.descripcion {
+.list_nav{
+    display:flex;
     text-align: center;
+    color:white;
+    font-size: 20px;
+    margin-top: 2rem ; 
+  
+  
 }
+
+.list_nav :hover{
+    background-color: #E8AC3C;
+    padding: 10px 10px;
+    border-radius: 3px;
+    
+}
+
+.nav_item{
+    list-style: none;
+    flex: 1 1 auto;
+    
+
+}
+
+body{
+
+    background-color: #E8AC3C;
+}
+
+
+.tituloPresentacion{
+    text-align: center;
+    padding: 20px;
+    margin-top: 3rem;
+}
+
+.introPagina {
+    text-align: center;
+    font-size: 21px;
+    font-style: italic;
+}
+
+
+
 
