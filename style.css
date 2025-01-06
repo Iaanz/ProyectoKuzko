@@ -49,13 +49,13 @@ body{
     background-color: #E8AC3C;
 }
 
-
+ /* esto es parte de la pagina principal */
 .tituloPresentacion{
     text-align: center;
     padding: 20px;
     margin-top: 3rem;
 }
-
+ /* esto es parte de la pagina principal */
 .introPagina {
     text-align: center;
     font-size: 21px;
