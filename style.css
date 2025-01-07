@@ -9,7 +9,6 @@
 nav {background-color: #510b2c;
     padding-top: 2rem; 
     padding-bottom: 1rem;
-
    
 }
 
@@ -19,6 +18,9 @@ nav {background-color: #510b2c;
     font-size: x-large;
     text-transform: uppercase ;
 }
+.tituloPagina img{
+    border-radius: 50%;
+}
 
 .list_nav{
     display:flex;
@@ -26,11 +28,14 @@ nav {background-color: #510b2c;
     color:white;
     font-size: 20px;
     margin-top: 2rem ; 
-  
-  
 }
 
-.list_nav :hover{
+.list_nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.list_nav a:hover{
     background-color: #E8AC3C;
     padding: 10px 10px;
     border-radius: 3px;
@@ -46,7 +51,15 @@ nav {background-color: #510b2c;
 
 body{
 
+    background-color: #ebebeb;
+}
+
+footer{
+    margin: 10px 0 0 0;
+    padding: 2%;
     background-color: #E8AC3C;
+    color: white;
+    text-align: center;
 }
 
  /* esto es parte de la pagina principal */
@@ -55,6 +68,24 @@ body{
     padding: 20px;
     margin-top: 3rem;
 }
+
+main{
+    text-align: center;
+}
+
+main img {
+    width: 600px;
+    margin: 10px 0;
+}
+
+main h3{
+    margin: 20px 0;
+}
+
+.tunos_img img{
+    width: 400px;
+}
+
  /* esto es parte de la pagina principal */
 .introPagina {
     text-align: center;
