@@ -86,13 +86,23 @@ main h3{
     width: 400px;
 }
 
- /* esto es parte de la pagina principal */
 .introPagina {
     text-align: center;
     font-size: 21px;
     font-style: italic;
 }
 
+/* esto es parte de la pagina de contacto*/
 
+.icons{
+    margin: 15px 0 15px 0;
+}
+.lista_icons a{
+    color: #510b2c;
+    margin: 0 15px ;
+    font-size: 2rem;
+}
 
-
+.lista_icons a:hover{
+    color: #E8AC3C;
+}
