@@ -86,15 +86,13 @@ main h3{
     width: 400px;
 }
 
-.introPagina_UL{
-    margin: 0 33% 0 33%;
-}
+
 
 .introPagina {
-    text-align: left;
+    text-align: center;
     font-size: 21px;
     font-style: italic;
-    margin: 0 10% 0 10%;
+    
 }
 
 /* esto es parte de la pagina de contacto*/
